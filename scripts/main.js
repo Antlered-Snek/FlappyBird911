@@ -397,8 +397,8 @@ function loseScreen() {
     c.lineWidth = 8;
     c.font = "bold 50px Helvetica";
     c.textAlign = "center"
-    c.strokeText("You Died WOOOO!", canvas_width*0.5, canvas_height*0.5);
-    c.fillText("You Died WOOOO!", canvas_width*0.5, canvas_height*0.5);
+    c.strokeText("You Died!", canvas_width*0.5, canvas_height*0.5);
+    c.fillText("You Died!", canvas_width*0.5, canvas_height*0.5);
     c.restore();
 }
 
